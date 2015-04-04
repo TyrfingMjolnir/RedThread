@@ -1,3 +1,9 @@
+/*
+
+ Todo make this into a function that returns an array of vectors.
+
+ */
+
 #include <iostream>
 #include <string>
 #include <iomanip>

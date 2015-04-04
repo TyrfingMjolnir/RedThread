@@ -26,12 +26,12 @@ int main( int argc, const char* argv[] ) {
   sl = s.length();
 
   for(  i = 0; i < sl -c ; i++ ) {
-      for( j = 0; j < c; j += intBytesWide ) {
-        k = i + j;
-        for( l = 0; l < intBytesWide; l++ ) {
-          h += ( s[ k + l ] ) << ( 24 - l * 8 );
-        }
+    for( j = 0; j < c; j += intBytesWide ) {
+      k = i + j;
+      for( l = 0; l < intBytesWide; l++ ) {
+        h += ( s[ k + l ] ) << ( 24 - l * 8 );
       }
+    }
     cout << s[i] << "\t0x" << setfill( '0' ) << setw( 8 ) << hex << h << endl;
   }
   cout << endl << "s[0] = " << s[0] << endl;

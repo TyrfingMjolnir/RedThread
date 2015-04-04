@@ -1,6 +1,6 @@
 /*
 
- Todo make this into a function that returns an array of vectors.
+ Todo make this into a function that returns an array of vectors( substringOffset, byteSize )
 
  */
 
